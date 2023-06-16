@@ -11,7 +11,7 @@
 ### Here, we've built our own features from exitsting features by simple mathematical operations(like 'avg_mpg' from 'min_mpg' and 'max_mpg')
 
 ## Clustering
-###We've used HDBSCAN(Hierarchical Density-Based Spatial Clustering of Applications with Noise) for density based clustering of clusters of varying density. This type of clustering could potentially allow the model to learn the complex relationships between the data points easier
+### We've used HDBSCAN(Hierarchical Density-Based Spatial Clustering of Applications with Noise) for density based clustering of clusters of varying density. This type of clustering could potentially allow the model to learn the complex relationships between the data points easier
 
 ## PCA
 ### Here, we've formed PCA features from intial features, whcih maps the variation of the initial features along certain axes, thus allowing us to learn the compex relationships of the model easier. These features and their loadings can then be analysed to form new features or these PCA features can be used themselves directly. Care must be taken when considering PCA features, so as to prevent overfitting
